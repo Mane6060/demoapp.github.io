@@ -1,0 +1,81 @@
+.navbar-brand {
+    color: #2596be !important;
+}
+
+.active {
+    color: #2596be !important;
+}
+
+.headerleft {
+    /* border: 1px solid green; */
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerright {
+    /* border: 1px solid cyan; */
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.headerleft img {
+    /* border: 1px solid black; */
+    height: 20rem;
+    width: 20rem;
+}
+
+.headerright h1 {
+    font-size: 5rem;
+    color: rgb(133, 9, 248);
+}
+
+.p1 {
+    font-size: 1.5rem;
+    color: rgb(110, 69, 14);
+}
+
+.p2 {
+    font-size: 1.2rem;
+    color: rgb(12, 27, 23);
+}
+
+.sectionheading {
+    color: #2596be;
+}
+
+.skilltype:hover {
+    margin-top: -1rem;
+    box-shadow: 5px 5px 5px gray;
+    transition: all ease-in-out .5s;
+    transform: rotate(5deg);
+}
+
+.projectcardimg01 {
+    height: 70vh;
+}
+
+.projectcardimg02 {
+    height: 50vh;
+}
+
+.abouthead {
+    display: flex;
+    /* border: 1px solid black;  */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+
+.abouthead {
+    height: 20rem;
+}
+.abouthead img{
+    height: 20rem;
+    width: 20rem;
+}
